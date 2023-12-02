@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+
+
+}.login{
+    position: relative;
+    width: 405px;
+    height: 405px;
+    bottom: -100px;
+    border-radius: 45px;
+}.container{
+    background: url("yoo.gif");
+    backdrop-filter: blur(10px);
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left:1px;
+    bottom:1px;
+    border-radius: 45px;
+    border: solid 2px white;
+}
+input[type=password],input[type=text]{
+    position: relative;
+    width: 300px;
+    height: 35px;
+    margin-left: 45px;
+    margin-top: 30px;
+    bottom:-80px;
+    padding-left: 10px;
+    border:solid 2px white;
+    border-radius: 45px;
+    -webkit-text-fill-color: white;
+    font-size: 14px;
+    background: transparent;
+}input[type=text]:focus,input[type=password]:focus,
+input[type=text]:valid,input[type=password]:valid{
+    font-size:12px;
+    border:2px black;
+}input:focus ~ label,
+input:valid ~ label{
+    top:30px;
+    font-size: 0.9em;
+    background-color: #1f293a;
+    padding: 0 6px;
+    color:#00fffc;
+    pointer-events: none;
+}
+input[type=submit]{
+    position: relative;
+    width: 120px;
+    height: 30px;
+    margin-left: 140px;
+    bottom: -70px;
+    border-radius: 45px;
+    background: transparent;
+    border: solid 3px white;
+    -webkit-text-fill-color: white;
+}
+label{
+    position: relative;
+    left:60px;
+    bottom:-50px;
+    transform: translateY(50%);
+    pointer-events: none;
+    transition: 0.5s ease;
+    font-size: 0.9em;
+    -webkit-text-fill-color: white;
+}.login2{
+    position: relative;
+    font-size: 40px;
+    left:140px;
+    bottom:-40px;
+    border:transparent;
+    -webkit-text-fill-color: white;
+    
+}.lupa{
+    position: relative;
+    bottom:-50px;
+    left:60px;
+    -webkit-text-fill-color: white;
+}a{
+    -webkit-text-fill-color: white;
+}#check{
+    position: relative;
+    bottom:-30px;
+    left :360px;
+    width: 15px;
+    height: 15px;
+    border-radius: 45px;
+    transform: none;
+}

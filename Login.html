@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="login">
+        <div class="desain1"></div>
+        <div class="desain2"></div>
+        <div class="desain3"></div>
+        <div class="desain4"></div>
+        <div class="desain5"></div>
+        <div class="container"><div class="login2">Login</div>
+            <form action="" method="post">
+                <div><input type="text" required><label>Masukan Email</label>
+                </div>
+                <div><input type="password" id="pass" required>
+                    <label>Masukan Password</label>
+                </div>
+                <input id="check" type="checkbox">
+                <div class="lupa"><a href="">lupa password</a></div>
+                <div class="signup"><a href=""></a></div>
+            <input type="submit" name="masuk" value="Login">
+        </form>
+        </div>
+        <script>
+        check.onclick = togglePassword;
+
+        function togglePassword(){
+            if(check.checked) pass.type = "text";
+            else pass.type = "password";
+        }
+    </script>
+    </div>
+</body>
+</html>
